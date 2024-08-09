@@ -367,3 +367,9 @@ console.log(z);
     console.log("Value of x: " + x);
   }
 }
+
+{
+
+  let a = 2;
+  console.log(a);
+}
