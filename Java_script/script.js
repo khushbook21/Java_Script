@@ -1,20 +1,20 @@
-// console.log('hello');
-// let a, b, c;
-// a = 2;
-// b = 3;
-// c = a + b;
-// console.log("The value of c is " + c + ".");
+console.log('hello');
+let a, b, c;
+a = 2;
+b = 3;
+c = a + b;
+console.log("The value of c is " + c + ".");
 
-// var value1 = 123;
-// let value2 = 1234;
-// const fixed = 33;
+var value1 = 123;
+let value2 = 1234;
+const fixed = 33;
 
-// console.log(value1);
-// console.log(value2);
-// console.log(fixed);
+console.log(value1);
+console.log(value2);
+console.log(fixed);
 
 
-//operators
+operators
 //1.. arrithmatic operators
 //addion.
 let x = 3 + 5;
