@@ -429,5 +429,6 @@ console.log(z);
   const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
   const newarr = arr.map(val => val * 2);
   console.log(newarr);
+  console.log('cheking')
 
 }
