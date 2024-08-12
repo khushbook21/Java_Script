@@ -430,6 +430,4 @@ console.log(z);
   const newarr = arr.map(val => val * 2);
   console.log(newarr);
 
-
-
 }
