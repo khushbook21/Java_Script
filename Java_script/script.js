@@ -368,8 +368,68 @@ console.log(z);
   }
 }
 
-{
 
-  let a = 2;
-  console.log(a);
+{
+  for (let i = 0; i < 4; i++) {
+    console.log(i);
+  }
+}
+
+// while loop
+{
+  let i = 0;
+  while (i < 6) {
+    console.log(i);
+    i++;
+  }
+}
+
+// do-while loop
+{
+  console.log('execute while loop')
+  let i = 0;
+  do {
+    console.log(i);
+    i++;
+  }
+  while (i < 6);
+
+}
+
+// for in loop
+{
+  console.log('for-in loop')
+  const obj = { a: 1, b: 4, c: 7 };
+  for (let prop in obj) {
+    console.log(prop + ':' + obj[prop]);
+  }
+}
+
+// for of loop
+
+{
+  console.log('for of loop');
+
+  const arr = [1, 2, 3, 4, 5];
+  for (let val of arr) {
+    console.log(val);
+  }
+}
+
+// for each loop
+{
+  console.log('for- each loop')
+  const arr = [1, 2, 3];
+  arr.forEach(val => console.log(val));
+}
+
+// js map method
+{
+  console.log('map method in js')
+  const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+  const newarr = arr.map(val => val * 2);
+  console.log(newarr);
+
+
+
 }
