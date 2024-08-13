@@ -1,12 +1,12 @@
 console.log('welcome object')
-let schoole = {
-  name: 'aiktc',
-  location: 'delhi',
+// JavaScript code demonstrating a simple object
+let school = {
+  name: 'Vivekananda School',
+  location: 'Delhi',
   established: '1971',
   displayInfo: function () {
-    console.log(`${schoole.name} was established in ${schoole.established} at ${schoole.location}`);
+    console.log(`${school.name} was established 
+            in ${school.established} at ${school.location}`);
   }
-
-
 }
-schoole.displayInfo();
+school.displayInfo();  
