@@ -10,3 +10,4 @@ let school = {
   }
 }
 school.displayInfo();  
+
