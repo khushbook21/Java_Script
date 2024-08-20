@@ -21,6 +21,7 @@ console.log('hello array')
   let courses = ['html', 'css', 'react', 'angular'];
   console.log(courses[0]);
   console.log(courses[1]);
+  
 }
 
 //2. Accessing the First Element of an Array
