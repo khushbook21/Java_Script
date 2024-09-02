@@ -291,22 +291,7 @@ console.log('hello new world')
   }
 }
 
-{
 
-  // fuctions on js
-  // 1. Function Declarations
-
-  function greet(name) {
-    return `Hello, ${name}!`;
-  }
-  console.log(greet('Alice')); // Outputs: Hello, Alice!
-
-  function greet(name) {
-    console.log("Hello, " + name + "!");
-  }
-  greet('khushboo');
-
-}
 
 
 
