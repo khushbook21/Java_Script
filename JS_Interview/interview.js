@@ -291,7 +291,57 @@ console.log('hello new world')
   }
 }
 
+{
+  // fuctions in js
 
+  // 1. fuction declarartion
+
+  function khushboo(location) {
+    console.log('hello ' + location + ' ! welcome to ');
+  }
+  khushboo('mumbai');
+
+}
+
+{
+
+  function add(a, b) {
+    return a + b;
+
+  }
+  let sum = add(1, 1);
+  console.log(sum);
+
+}
+
+{
+  function multiplication(x, y) {
+    return (x * y);
+
+  }
+  let result = multiplication(2, 3);
+  console.log(result);
+}
+
+// 2 fuction expression
+// This is a function expression
+const sayHello = function () {
+  console.log("Hello!");
+};
+
+// Now you can call the function using the variable name
+sayHello(); // This will print "Hello!" to the console
+
+
+// 3. arrow fuctions
+let variableName = (name) => {
+  console.log('hello arrow fuction')
+};
+variableName('khushboo');
+
+// example
+let add = (a, b) => a + b;
+console.log(add(2, 4));
 
 
 
