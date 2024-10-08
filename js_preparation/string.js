@@ -3,7 +3,6 @@
   let myName = 'khushboo';
   console.log("Hello", myName, 'Welcome to the coding chalange');
 }
-
 {
   // strings method.
   // 1. length method
