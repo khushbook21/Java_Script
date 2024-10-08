@@ -100,12 +100,26 @@
   console.log(orderNumber.padStart(6, '0'));
   console.log(orderNumber.padEnd(6, '0'));
 
-  //20. repeat() method
+  // 20. repeat() method
   let repeatetext = 'khushboo ';
   console.log(repeatetext.repeat(5));
 
+  // 21. match() methood
+  let sentence = "The rain in Spain stays mainly in the plain.";
+  let matches = sentence.match(/ain/g);
+  console.log(matches);
 
+  // 22. search() method
+  let sentence1 = "Where is the cat ?";
+  console.log(sentence1.search("cat"));
 
+  // 23. localeCompare() method
+  let a3 = "apple";
+  let b = "banana";
+  console.log(a3.localeCompare(b));
 
+  // 24. toString() method
+  let num = 100;
+  console.log(num.toString());
 
 }
