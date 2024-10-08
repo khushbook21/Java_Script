@@ -74,10 +74,37 @@
   let newAnnouncement = announcement.replaceAll("apples", "oranges");
   console.log(newAnnouncement);
 
-  // 15. split()
+  // 15. split() method
   let groceryList = "apples, bananas, oranges, grapes";
   let items = groceryList.split(",");
   console.log(items);
+
+  // 16. trim() method
+  let userInput = "   hello world   ";
+  console.log(userInput.trim());
+
+  // 17. trimStart() and trimEnd() method
+  let text1 = "   Hello!   ";
+  console.log(text1.trimStart());
+  console.log(text1.trimEnd());
+
+  // 18. concat() method
+  let a1 = 'khushboo';
+  let a2 = 'kanojiya';
+  console.log(a1.concat(a2));
+  let fullName = a1.concat(" ", a2);
+  console.log(fullName);
+
+  // 19. padStart() and padEnd() method
+  let orderNumber = '123';
+  console.log(orderNumber.padStart(6, '0'));
+  console.log(orderNumber.padEnd(6, '0'));
+
+  //20. repeat() method
+  let repeatetext = 'khushboo ';
+  console.log(repeatetext.repeat(5));
+
+
 
 
 
